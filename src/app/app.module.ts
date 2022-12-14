@@ -9,6 +9,8 @@ import { EmpleadosComponent } from './empleados/empleados.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import { NgForm } from '@angular/forms';
+import { ListarEmpleadosComponent } from './listar-empleados/listar-empleados.component';
+import { EditarEmpleadosComponent } from './editar-empleados/editar-empleados.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { NgForm } from '@angular/forms';
     HeaderComponent,
     FooterComponent,
     ContactoComponent,
-    EmpleadosComponent
+    EmpleadosComponent,
+    ListarEmpleadosComponent,
+    EditarEmpleadosComponent
   ],
   imports: [
     BrowserModule,
